@@ -1,5 +1,6 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Libre Baskerville", serif;
+  background: #fdfdfd;
 }
 
 .weather-app-wrapper {
@@ -8,14 +9,22 @@ body {
 }
 .weather-app {
   padding: 20px;
-  border: 1px solid #ee7d8e;
+  border: 1px solid #363636;
   border-radius: 5px;
 }
 
+button {
+  border: 1.5px solid #363636;
+  border-radius: 5px;
+  color: #dc2f2f;
+  background-color: #363636;
+  padding: 5px 20px;
+}
+
 h1 {
-  color: #fe6f33;
+  color: #363636;
   font-size: 24px;
-  font-weight: 100;
+  font-weight: 200;
   line-height: 28px;
   margin-bottom: 0;
 }
@@ -29,7 +38,7 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-  color: #5b9ddb;
+  color: #dc2f2f;
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
@@ -51,10 +60,15 @@ li:first-letter {
 }
 
 .weather-temperature strong {
-  color: #ee7d8e;
-  font-size: 60px;
+  color: #363636;
+  font-size: 55px;
   line-height: 1;
   font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #dc2f2f;
 }
 
 .weather-temperature .units {
@@ -64,15 +78,15 @@ li:first-letter {
 }
 
 .weather-temperature .active {
-  color: #ee7d8e;
+  color: #363636;
   cursor: default;
   text-decoration: none;
 }
 
-.weather-temperature .fahrenheit {
+.weather-temperature .active:hover {
   text-decoration: none;
 }
 
-.weather-temperature .active:hover {
+.link {
   text-decoration: none;
 }
