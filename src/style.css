@@ -66,29 +66,19 @@ li:first-letter {
   font-weight: 400;
 }
 
-a {
-  text-decoration: none;
-  color: #dc2f2f;
-}
-
 .weather-temperature .units {
   position: relative;
   font-size: 16px;
   top: -30px;
-}
-
-.weather-temperature .active {
   color: #363636;
-  cursor: default;
-  text-decoration: none;
-}
-
-.weather-temperature .active:hover {
-  text-decoration: none;
 }
 
 .link {
+  color: #363636;
+}
+.link a {
   text-decoration: none;
+  color: #dc2f2f;
 }
 
 .weather-forecast {
